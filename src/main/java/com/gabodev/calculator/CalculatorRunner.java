@@ -20,7 +20,7 @@ public class CalculatorRunner {
 			System.out.println("3. Multiplicar");
 			System.out.println("4. Dividir");
 			System.out.println("5. Salir");
-			System.out.println("Selecciona una operación (Default: 5): ");
+			System.out.println("Selecciona una operación: ");
 			Integer opt = reader.nextInt();
 			if(opt == 5){
 				System.out.println("Programa terminado!");
