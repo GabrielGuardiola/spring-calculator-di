@@ -15,7 +15,11 @@ public class OperationService implements IOperationService {
 
     @Override
     public Integer divide(Integer op1, Integer op2) {
-        return op1/op2;
+        try {
+            return op1/op2;
+        } catch (ArithmeticException e) {
+            return 0;
+        }
     }
 
     @Override
