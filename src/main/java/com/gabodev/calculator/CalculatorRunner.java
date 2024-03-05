@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class CalculatorRunner {
 
-	static Scanner reader = new Scanner(System.in);
+	public static final Scanner reader = new Scanner(System.in);
 	public static void main(String[] args) {
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		CalculatorApplication calculator = context.getBean(CalculatorApplication.class);
